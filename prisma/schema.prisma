@@ -8,3 +8,23 @@ datasource db {
 }
 
 // your models go here
+model Movie {
+  id  Int @id @default(autoincrement())
+  title String
+  year  Int
+
+  genres Genre[]
+
+  @@map("movies")
+}
+
+
+model Genre {
+  id Int @id @default(autoincrement())
+  title String @unique
+
+  movies Movie[]
+
+  @@map("genres")
+}
+
