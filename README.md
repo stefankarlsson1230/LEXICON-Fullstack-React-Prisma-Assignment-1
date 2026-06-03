@@ -1,8 +1,10 @@
-# Movie Management CLI Application
+# LEXICON - Fullstack React
+## Prisma
+### Assignment 1 - Movie Management CLI Application
 
 A command-line interface (CLI) application for managing a movie database using Node.js, TypeScript, and Prisma ORM.
 
-## Features
+### Features
 
 - Add new movies with title and year
 - Update existing movies
@@ -13,13 +15,13 @@ A command-line interface (CLI) application for managing a movie database using N
 - Add new genres
 - Support for multiple genres per movie
 
-## Prerequisites
+### Prerequisites
 
 - Node.js (v20 or higher)
 - npm (Node Package Manager)
 - A database (PostgreSQL)
 
-## Setup Instructions
+### Setup Instructions
 
 1. Clone the repository:
 
@@ -27,6 +29,8 @@ A command-line interface (CLI) application for managing a movie database using N
    git clone https://github.com/sebastian-vallin/prisma-exercises.git
    cd prisma-assignment
    ```
+
+   **I downloaded the starting project from the assignment portal**
 
 2. Install dependencies:
 
@@ -55,7 +59,7 @@ A command-line interface (CLI) application for managing a movie database using N
    npx prisma migrate dev
    ```
 
-## Running the Application
+### Running the Application
 
 Start the application with:
 
@@ -63,7 +67,7 @@ Start the application with:
 npm run start
 ```
 
-## Usage
+### Usage
 
 The application provides an interactive CLI with the following options:
 
@@ -76,16 +80,19 @@ The application provides an interactive CLI with the following options:
 7. Add Genre - Add a new genre to the database
 8. Exit - Close the application
 
-## Project Structure
+### Project Structure
 
 - `src/` - Source code directory
   - `index.ts` - Main application file
 - `prisma/` - Prisma configuration and migrations
 
-## Technologies Used
+### Technologies Used
 
 - TypeScript
 - Node.js
 - Prisma ORM
 - tsx (for running TypeScript files)
 - @inquirer/prompts (for CLI interaction)
+
+### Note
+./src/index.ts contains most of the directions for this project.
