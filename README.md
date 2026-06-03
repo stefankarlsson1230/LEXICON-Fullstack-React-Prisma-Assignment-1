@@ -1,0 +1,1 @@
+# LEXICON-Fullstack-React-Prisma-Assignment-1
